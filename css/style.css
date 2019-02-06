@@ -1,7 +1,8 @@
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"),
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix")
+      format("embedded-opentype"),
     url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
     url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
     url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
@@ -423,7 +424,7 @@ figure figcaption {
   z-index: 9;
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner {
   display: table-cell;
   vertical-align: middle;
   min-height: 700px;
@@ -431,7 +432,7 @@ figure figcaption {
   position: relative;
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner .desc {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
   position: absolute;
   bottom: 0;
   right: -15px;
@@ -440,27 +441,27 @@ figure figcaption {
 }
 
 @media screen and (max-width: 768px) {
-  #colorlib-hero .flexslider .slider-text>.slider-text-inner .desc {
+  #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
     right: 0;
     left: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #colorlib-hero .flexslider .slider-text>.slider-text-inner {
+  #colorlib-hero .flexslider .slider-text > .slider-text-inner {
     text-align: center;
   }
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner h1,
-#colorlib-hero .flexslider .slider-text>.slider-text-inner h2 {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1,
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
   margin: 0;
   padding: 0;
   color: black;
   font-family: "Quicksand", Arial, sans-serif;
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner h1 {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
   margin-bottom: 20px;
   font-size: 44px;
   line-height: 1.3;
@@ -468,12 +469,12 @@ figure figcaption {
 }
 
 @media screen and (max-width: 768px) {
-  #colorlib-hero .flexslider .slider-text>.slider-text-inner h1 {
+  #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
     font-size: 28px;
   }
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner h2 {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 30px;
@@ -481,30 +482,34 @@ figure figcaption {
   font-family: "Quicksand", Arial, sans-serif;
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner h2 a {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(0, 0, 0, 0.8);
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner .heading-section {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
   font-size: 50px;
 }
 
 @media screen and (max-width: 768px) {
-  #colorlib-hero .flexslider .slider-text>.slider-text-inner .heading-section {
+  #colorlib-hero
+    .flexslider
+    .slider-text
+    > .slider-text-inner
+    .heading-section {
     font-size: 30px;
   }
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner s .colorlib-lead {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner s .colorlib-lead {
   font-size: 20px;
   color: #fff;
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner p {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner p {
   margin-bottom: 0;
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner .btn {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -514,19 +519,23 @@ figure figcaption {
   font-weight: 400;
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner .btn.btn-learn {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
   color: #000;
   border: 1px solid #fff;
   background: #fff !important;
 }
 
-#colorlib-hero .flexslider .slider-text>.slider-text-inner .btn.btn-learn:hover {
+#colorlib-hero
+  .flexslider
+  .slider-text
+  > .slider-text-inner
+  .btn.btn-learn:hover {
   background: transparent !important;
   border: 1px solid #000 !important;
 }
 
 @media screen and (max-width: 768px) {
-  #colorlib-hero .flexslider .slider-text>.slider-text-inner .btn {
+  #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
     width: 100%;
   }
 }
@@ -585,7 +594,6 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 @media screen and (max-width: 768px) {
-
   .colorlib-blog,
   .colorlib-work,
   .colorlib-about,
@@ -646,7 +654,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .about-img {
-  width: 100%;
+  width: 600px;
   height: 600px;
   margin-bottom: 30px;
 }
@@ -724,7 +732,7 @@ body.offcanvas .colorlib-nav-toggle {
   color: #ffc300 !important;
 }
 
-.fancy-collapse-panel .panel-default>.panel-heading {
+.fancy-collapse-panel .panel-default > .panel-heading {
   padding: 0;
 }
 
